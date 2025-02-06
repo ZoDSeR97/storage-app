@@ -8,6 +8,13 @@ File Management application
 - [Drizzle](https://orm.drizzle.team)
 - [Tailwind CSS](https://tailwindcss.com)
 
+## Microservices
+
+- [Clerk](https://clerk.com)
+- [SingleStore](https://www.singlestore.com)
+- [Uploadthing](https://uploadthing.com)
+- [PostHog](https://posthog.com)
+
 ## How to run
 
 ```bash
