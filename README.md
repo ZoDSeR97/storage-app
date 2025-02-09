@@ -1,6 +1,6 @@
-# Drive Clone App
+# Storage App
 
-File Management application
+Making file management application that can be a microservice for a bigger project
 
 ## Tech Stack
 
@@ -18,7 +18,7 @@ File Management application
 ## How to run
 
 ```bash
-cd drive-clone
+cd storage-app
 bun run db:push
 bun run dev
 ```
