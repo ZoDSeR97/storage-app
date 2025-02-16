@@ -1,3 +1,38 @@
+# Include any files or directories that you don't want to be copied to your
+# container here (e.g., local build artifacts, temporary files, etc.).
+#
+# For more help, visit the .dockerignore file reference guide at
+# https://docs.docker.com/go/build-context-dockerignore/
+
+**/.classpath
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/.vscode
+**/.next
+**/.cache
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/charts
+**/docker-compose*
+**/compose.y*ml
+**/Dockerfile*
+**/node_modules
+**/npm-debug.log
+**/obj
+**/secrets.dev.yaml
+**/values.dev.yaml
+**/build
+**/dist
+LICENSE
+README.md
+
 # Ignore node_modules (will be installed inside the container)
 node_modules
 
@@ -40,4 +75,41 @@ __tests__
 # Ignore unnecessary files
 *.md
 *.txt
-LICENSE
+
+# Additional exclusions
+**/yarn.lock
+**/yarn-error.log
+**/package-lock.json
+**/pnpm-lock.yaml
+**/.pnp.*
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.venv
+**/venv
+**/env
+**/Pipfile.lock
+**/poetry.lock
+**/target
+**/.mvn
+**/.gradle
+**/*.jar
+**/*.war
+**/tmp
+**/*.tmp
+**/*.temp
+**/.github
+**/.gitlab-ci.yml
+**/.circleci
+**/.travis.yml
+**/docker-compose.override.yml
+**/docker-compose.dev.yml
+**/docker-compose.test.yml
+**/.terraform
+**/.serverless
+**/.sass-cache
+**/.yarn/cache
+**/.yarn/unplugged
+**/.yarn/build-state.yml
+**/.yarn/install-state.gz
